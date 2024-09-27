@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>Projet html/css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#acceuil"> Acceuil </a></li>
+                <li><a href="#apropos"> A propos </a></li>
+                <li><a href="#monService"> Mon service </a></li>
+                <li><a href="#contactezNous"> Contactez Nous </a></li>               
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <h1>Bienvenue à l'hotel Fatima</h1>
+        <p>Votre distination pour des vacances inoubliables...</p>
+    </div>
+    <section id="apropos">
+        <h2>A propos</h2>
+        <div class="aboutContainer">
+            <div class="aboutImages">
+                <img src="assets/hotel banner.jpg" alt="image hotel">
+            </div>
+            <div class="aboutText">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis mollitia quaerat et. Accusamus, adipisci est? Blanditiis ipsum cupiditate numquam. Commodi, voluptate sit. Aliquam eveniet iure delectus, repellat nostrum reprehenderit aperiam mollitia, atque excepturi dolores illum iste, ex voluptatibus explicabo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="monService">
+        <h2>Mon service</h2>
+        <div class="aboutContainer">
+            <div class="aboutText">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem quibusdam sit, amet laboriosam blanditiis molestias quidem ipsum nostrum ullam laborum quas eius asperiores dolore provident? Minus laudantium sint consequatur?</p>
+            </div>
+            <div class="aboutImages">
+                <img src="assets/img2.jpg" alt="image service">
+            </div>
+        </div>
+    </section>
+
+    <section id="contactezNous">
+        <h2>Contactez Nous</h2>
+        <form action="">
+            <label for="Nom-complet">Nom complet:</label>
+            <input type="text" required id="Nom-complet" name="Nom-complet">
+
+            <label for="Email">Email:</label>
+            <input type="email" required id="Email" name="Email">
+
+            <label for="num-tel">Numéro de téléphone:</label>
+            <input type="tel" required id="num-tel" name="num-tel">
+
+            <label for="password">Mot de passe:</label>
+            <input type="password" required id="password" name="password">
+            
+            <label for="description">description</label>
+            <textarea name="description" id="description" required cols="50" rows="4"></textarea>
+
+            <div class="sexe">
+                <label for="sexe">Sexe: </label>
+                <label for="femme">Femme</label>
+                <input type="radio" id="femme" name="sexe">
+                <label for="homme">homme</label>
+                <input type="radio" id="homme" name="sexe">            
+            </div>
+            <input type="submit" type="Envoyer">
+        </form>
+    </section>
+
+    <footer>
+        &copy;2024 Fatima
+    </footer>
+</body>
+</html>

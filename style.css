@@ -1,0 +1,125 @@
+body, h1, h2, ul{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    background-color: rgb(101, 157, 207);
+}
+ul{
+    list-style-type: none;
+    padding: 10px 15px;
+    text-align: center;
+}
+li{
+    display: inline;
+    margin-right: 20px;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.banner{
+    background-image: url("/assets/imgBanner.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.banner h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.banner p{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+section{
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.aboutContainer{
+    display: flex;
+    flex-direction: row; 
+    justify-items: center;
+}
+.aboutImages{   
+    flex: 1;
+    text-align: center;
+}
+.aboutImages img{
+    height: auto;
+    /* max-width: 100%; */
+    width: 400px;
+}
+.aboutText{
+    flex: 1;
+    padding: 20px;
+}
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 60px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+label{
+    display: block; /* l'elmt prends tout l'espace dispo dans le contenainer et fait un saut de ligne */
+    margin-bottom: 5px;
+    font-weight: bold;  
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input[type="radio"]{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.sexe{
+    display: flex;
+    justify-content: center;
+}
+input[type="submit"]{
+    width: 100%;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+input[type="submit"]:hover{
+    background-color: aqua;
+}
+#contactezNous{
+    text-align: center;
+}
+footer{
+    background-color: gray;
+    color: #111;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media screen and (max-width:320px){
+    nav{
+        width: 320px;
+    }
+    body{
+        width: 320px;
+    }
+    
+} 
+/*menu banniere*/
