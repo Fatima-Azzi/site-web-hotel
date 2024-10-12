@@ -108,7 +108,7 @@ input[type="submit"]:hover{
 }
 footer{
     background-color: gray;
-    color: #111;
+    color: #fff;
     text-align: center;
     padding: 10px 0;
 }
@@ -117,9 +117,13 @@ footer{
     nav{
         width: 320px;
     }
+    .banner{
+        width: 320px;
+    }
     body{
         width: 320px;
     }
-    
+    .aboutContainer{
+        flex-direction: column;
+    }
 } 
-/*menu banniere*/
